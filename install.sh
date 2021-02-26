@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "...{Installation Starting}..."
+echo "Installation Starting..."
 
 sudo apt-get -y update
 sudo apt-get -y upgrade
@@ -43,6 +43,7 @@ select choice in "${choices[@]}"; do
                 yes)
 
 					echo "Installing Golang"
+					cd ~/A1BHT/
 					wget https://dl.google.com/go/go1.13.4.linux-amd64.tar.gz
 					sudo tar -xvf go1.13.4.linux-amd64.tar.gz
 					sudo mv go /usr/local
@@ -290,4 +291,4 @@ echo "done"
 echo -e "\n\n\n\n\n\n\n\n\n\n\nDone! All tools are set up in ~/tools"
 ls -la
 echo "One last time: don't forget to set up AWS credentials in ~/.aws/!"
-echo "-----[Installation Finished]-----"
+echo "//////////Installation Finished///////////"
