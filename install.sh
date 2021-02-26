@@ -21,6 +21,7 @@ sudo apt-get install -y rename
 sudo apt-get install -y xargs
 pip3 install requests urllib3
 sudo apt install snapd
+curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
 sudo apt update
 
 echo "installing bash_profile aliases from recon_profile"
