@@ -266,6 +266,10 @@ echo "installing subzy"
 go get -u -v github.com/lukasikic/subzy
 echo "done"
 
+echo "installing feroxbuster"
+curl -sL https://raw.githubusercontent.com/epi052/feroxbuster/master/install-nix.sh | bash
+echo "done"
+
 echo "installing amass"
 sudo snap install amass
 echo "done"
