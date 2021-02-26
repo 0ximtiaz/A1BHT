@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "...{Installation Starting}..."
+echo "...Installation Starting..."
 
 sudo apt-get -y update
 sudo apt-get -y upgrade
@@ -71,9 +71,8 @@ echo "Don't forget to set up AWS credentials!"
 apt install -y awscli
 echo "Don't forget to set up AWS credentials!"
 
-
-
 #create a tools folder in ~/
+mkdir ~/A1BHT
 mkdir ~/A1BHT/tools
 cd ~/A1BHT/tools/
 
