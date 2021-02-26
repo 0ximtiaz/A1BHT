@@ -36,10 +36,10 @@ All In 1 Bug Hunting Tools.This is a script to install the most popular tools us
 - subzy
 - unfurl
 - waybackurls
-- findomain X
+- findomain
 - amass
 - XSRFProbe
-- feroxbuster X
+- feroxbuster
 - byp4xx
 - Lazy-FuzzZ
 - GitDorker
