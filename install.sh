@@ -210,6 +210,11 @@ chmod +x *.sh
 cd ~/tools/
 echo "done"
 
+echo "installing findomain"
+wget https://github.com/Edu4rdSHL/findomain/releases/latest/download/findomain-linux
+chmod +x findomain-linux
+echo "done"
+
 echo "installing httprobe"
 go get -u github.com/tomnomnom/httprobe 
 echo "done"
