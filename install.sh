@@ -162,7 +162,7 @@ echo "done"
 echo "installing Arjun"
 git clone https://github.com/s0md3v/Arjun.git
 cd Arjun
-pip install -r requirements.txt
+chmod +x setup.py
 cd ..
 echo "done"
 
